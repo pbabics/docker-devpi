@@ -1,0 +1,7 @@
+docker-devpi:
+  container_name: devpi
+  image: https://github.com/pbabics/docker-devpi
+  volumes:
+    - "../devpi-data:/data"
+  ports:
+    - "3141:3141"
